@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-home {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.7) 100%);
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-movies {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 0 32px;
+}

@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 144px;
+    padding: 0 4%;
+    margin-bottom: 3.2rem;
+    width: 86%;
+
+    color: #FFFFFF;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 540px) {
+    header {
+        margin: 0;
+    }
+    
+    .logo {
+        margin: 3rem 0;
+    }
+}
